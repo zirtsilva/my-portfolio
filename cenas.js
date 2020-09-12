@@ -20,7 +20,7 @@ $(document).ready(function () {
 
         console.log("Clicked project 2");
 
-        $('.showing-project-image').empty().append("<img src=img/project2.png>")
+        $('.showing-project-image').empty().append('<div class="left-image"><img src="img/project2.png"></div><div class="right-image"><img src="img/project2.1.png"></div>')
         
 
         $('.showing-project-text').empty().append("<p>A simple Java game I developed during my free time, to improve and train my recently learned programming skills. The game is a clone of the famous connect four board game: a two-player game, in which the players take turns dropping colored discs into a seven-column, six-row grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs.</p>")
