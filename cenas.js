@@ -7,6 +7,7 @@ $(document).ready(function () {
         
         $('.showing-project-image').empty().append("<img src=img/project1.png>")
         
+        
 
         $('.showing-project-text').empty().append("<p>A simple Java game where the player controls a chicken in a road full of moving cars. The objective is to cross the road without being hit by any car. If the player reaches the end of the road, the score increases by one, and the chicken goes to it's starting position. The difficulty increases each level, by increasing the ammount and speed of cars in the road. When the chicken gets hit, the game is lost and the player needs to start over from level one. The objective is to get the maximum possible score.</p>")
 
@@ -20,7 +21,7 @@ $(document).ready(function () {
 
         console.log("Clicked project 2");
 
-        $('.showing-project-image').empty().append('<div class="left-image"><img src="img/project2.png"></div><div class="right-image"><img src="img/project2.1.png"></div>')
+        $('.showing-project-image').empty().append("<img src=img/project2.png>")
         
 
         $('.showing-project-text').empty().append("<p>A simple Java game I developed during my free time, to improve and train my recently learned programming skills. The game is a clone of the famous connect four board game: a two-player game, in which the players take turns dropping colored discs into a seven-column, six-row grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs.</p>")
