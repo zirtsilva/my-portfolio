@@ -256,7 +256,6 @@ footer p{
   transition: .5s;
   display: inline-block;
   cursor: pointer;
-  
 }
 
 .project:hover{
@@ -279,10 +278,7 @@ footer p{
   height: 100%;
 }
 
-.project:active{
-  background-color: #9C0402;
-  color: #d9d9d9;
-}
+
 
 .projects{
   position: relative;
