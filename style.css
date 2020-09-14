@@ -30,7 +30,6 @@ nav ul,
 
 body{
   background-color: #161515;
-
 }
 
 header{
@@ -38,12 +37,20 @@ header{
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 1.5vh 0;
-  
 }
 
 .navbar{
-  background-color: #1f1e1e
+  background-color: #1f1e1e;
+  position: fixed;
+  z-index: 100;
+
 }
+
+.static{
+  position: relative;
+  width: 90vw;
+}
+
 
 
 
@@ -63,6 +70,7 @@ header a,
 li{
   list-style: none;
   margin-left: 3vw;
+  font-size: 1vw;
 }
 
 a{
@@ -77,15 +85,10 @@ a{
 
 
 .main-info-section{
-  /*height: calc(100vh - 8em);*/
-  padding-top: 10%;
+  padding-top: 15%;
   padding-bottom: 10%;
 }
 
-
-.text{
-  /*margin-top: 20vh;*/
-}
 
 .text h1{
   color: #d9d9d9;
@@ -105,6 +108,15 @@ span.m-left{
   margin-left: -0.1vw;
 }
 
+.word:hover{
+  color:#9C0402;
+  transition: 1s linear;
+}
+
+.text h1{
+  cursor: default;
+}
+
 .text p{
   letter-spacing: 0.2vw;
   word-spacing: 1vw;
@@ -112,9 +124,9 @@ span.m-left{
 }
 
 .text a{
-  padding: 1.5vh 2vw;
+  padding: .9vw 2vw;
   background-color: none;
-  border: 3px solid #9C0402;
+  border: .3vw solid #9C0402;
   color: #9C0402;
   font-size: .8vw;
   letter-spacing: .2vw;
@@ -148,11 +160,10 @@ span.m-left{
 }
 
 .profile-image img{
-  /*width: 600px*/
   width: 100%;
-  /*margin-top: 50px*/
-  /*margin-top: 5%;*/
-  /*transform: translateY(-30%);*/
+  transform: translate(0, -14vw);
+  -webkit-filter: grayscale(25%);
+  filter: grayscale(25%);
 }
 
 
@@ -244,9 +255,9 @@ footer p{
 }
 
 .project{
-  padding: 1.5vh 2vw;
+  padding: .9vw 2vw;
   background-color: none;
-  border: 3px solid #9C0402;
+  border: .2vw solid #9C0402;
   color: #9C0402;
   font-size: .8vw;
   letter-spacing: .2vw;
@@ -274,6 +285,11 @@ footer p{
   transition: .5s;
 }
 
+.selected a{
+background-color: #9C0402;
+color: #d9d9d9;
+}
+
 .project:hover::before{
   height: 100%;
 }
@@ -283,7 +299,7 @@ footer p{
 .projects{
   position: relative;
   text-align: center;
-  margin-top: -2em;
+  margin-top: -4vw;
 }
 
 .project-span{
@@ -302,7 +318,7 @@ footer p{
 }
 
 .showing-project-image img{
-  width: 80%;
+  width: 60%;
 }
 
 .showing-project-text{
@@ -342,14 +358,7 @@ footer p{
   margin: 1%;
   text-align: left;
 }
-/*
-.skills-list{
-  font-size: 2.5vw;
-  color: #707070;
-  font-weight: bold;
-  width: 100%;
-  }
-  */
+
 
 
 
@@ -386,10 +395,10 @@ footer p{
 .about img{
   width: 28vw;
   position: relative;
-  top: -28vw;
+  top: -30.6vw;
   left: calc(100% - 5vw);
   right: calc(100% - 5vw);
-  transform: translateX(calc(-100% + 10vw));
+  transform: translateX(calc(-100% + 10.8vw));
 }
 
 .gears {
@@ -410,6 +419,83 @@ footer p{
 .about,
 .skills,
 .work{
-  padding-bottom: 10rem;
+  padding-bottom: 10vw;
 }
 
+
+
+.fa-spin-hover:hover {
+  animation: fa-spin 2s infinite linear;
+}
+
+.fa-spin-hover{
+  font-size: 3vw;
+  color: #9C0402;
+  opacity: .6;
+  margin-right: 3vw;
+  margin-top: 1vw;
+}
+
+.contact{
+  font-size: 1.5vw;
+  color: #aaaaaa;
+  font-weight: bold;
+  text-transform: none;
+  opacity: .6;
+  padding: 0;
+  margin: 0;
+  top: -.8vw;
+}
+
+.contacts{
+  display: flex;
+  justify-content: center;
+}
+
+.contacts-list{
+  margin: 3vw;
+  display: inline-block;
+  transform: translateX(40%);
+}
+
+.github{
+  text-decoration: underline;
+}
+
+.linkedin{
+  text-decoration: underline;
+}
+
+#about-me{
+  transform: translateY(-10vh);
+}
+
+#my-skills{
+  transform: translateY(-10vh);
+}
+
+#my-projects{
+  transform: translateY(-5vh);
+}
+
+.lgo{
+  font-size: 1vw;
+}
+
+
+
+
+
+
+
+.profile-image img {
+  filter: gray;
+  -webkit-transition: all 1.5s ease-in-out;  
+  }
+
+  .profile-image img:hover {
+  filter: none;
+  -webkit-filter: grayscale(1);
+  -webkit-transform: scale(1.01);
+  transform: translate(0, -14vw);
+}

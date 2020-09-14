@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <script src="cenas.js"></script>
-  <link rel="stylesheet" href="animate.css" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://kit.fontawesome.com/a048cc6951.js" crossorigin="anonymous"></script>
 
   <title>Paulo Silva</title>
 </head>
@@ -20,21 +20,26 @@
 
   <div class="container navbar">
 
-    <header>
+    <div class="static">
 
-      <div class="lgo">
-        <h1>Paulo Silva</h1>
-      </div>
 
-      <nav>
-        <ul>
-          <li><a href="#about">about me</a></li>
-          <li><a href="#skills">skills</a></li>
-          <li><a href="#work">projects</a></li>
-        </ul>
-      </nav>
+      <header>
 
-    </header>
+        <div class="lgo">
+          <h1>Paulo Silva</h1>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#about-me">about me</a></li>
+            <li><a href="#my-skills">skills</a></li>
+            <li><a href="#my-projects">projects</a></li>
+          </ul>
+        </nav>
+
+      </header>
+
+    </div>
 
   </div>
 
@@ -45,40 +50,52 @@
 
       <div class="text">
         <h1>
-          <span>H</span>
-          <span class="m-left">i</span>
+          <span class="word">
+            <span class="m-left">H</span>
+            <span class="m-left">i</span>
+          </span>
           <span class="m-left">,</span>
           <br>
-          <span>I</span>
-          <span class="m-left">'</span>
-          <span class="m-left">m</span>
-          <span class="name">P</span>
-          <span class="m-left">a</span>
-          <span class="m-left">u</span>
-          <span class="m-left">l</span>
-          <span class="m-left">o</span>
+          <span class="word">
+            <span class="m-left">I</span>
+            <span class="m-left">'</span>
+            <span class="m-left">m</span>
+          </span>
+          <span class="m-left"> </span>
+          <span class="word">
+            <span class="name">P</span>
+            <span class="m-left">a</span>
+            <span class="m-left">u</span>
+            <span class="m-left">l</span>
+            <span class="m-left">o</span>
+          </span>
           <span class="m-left">,</span>
           <br>
-          <span>J</span>
-          <span class="m-left">u</span>
-          <span class="m-left">n</span>
-          <span class="m-left">i</span>
-          <span class="m-left">o</span>
-          <span class="m-left">r</span>
-          <span>D</span>
-          <span class="m-left">e</span>
-          <span class="m-left">v</span>
-          <span class="m-left">e</span>
-          <span class="m-left">l</span>
-          <span class="m-left">o</span>
-          <span class="m-left">p</span>
-          <span class="m-left">e</span>
-          <span class="m-left">r</span>
+          <span class="word">
+            <span class="m-left">J</span>
+            <span class="m-left">u</span>
+            <span class="m-left">n</span>
+            <span class="m-left">i</span>
+            <span class="m-left">o</span>
+            <span class="m-left">r</span>
+          </span>
+          <span class="m-left"> </span>
+          <span class="word">
+            <span class="m-left">D</span>
+            <span class="m-left">e</span>
+            <span class="m-left">v</span>
+            <span class="m-left">e</span>
+            <span class="m-left">l</span>
+            <span class="m-left">o</span>
+            <span class="m-left">p</span>
+            <span class="m-left">e</span>
+            <span class="m-left">r</span>
+          </span>
           <span class="m-left">.</span>
         </h1>
         <p>Java / JavaScript / HTML / CSS</p>
 
-        <a href="#contacts">contact me</a>
+        <a href="#contact-me">contact me</a>
 
       </div>
 
@@ -94,9 +111,9 @@
 
     </div>
 
-
   </div>
 
+  <div id="about-me"></div>
 
   <div class="container about" id="about">
     <div class="item" data-aos="fade-right">
@@ -105,22 +122,28 @@
 
 
       <div class="about-me-info">
-        <p>A curious mind that loves to understand how everything works.
-          With a big passion for solving problems and technology, programming allows me to connect both, and come up
-          with
-          creative solutions for otherwise difficult problems. Every complex problem has a simple solution - simplicity
-          is
-          key!</p>
+
+        <p>
+          Born and raised in the earth of Trás os Montes, I've always been passionate about technology. After working a
+          few years in the tech area, but never actually as a developer, I decided to upgrade my life and start learning
+          about programming. Immediatelly felt in love with it, and I'm currently looking for my first oportunity to
+          prove my value.<br> <br>With a big passion for solving problems and technology, programming allows me to
+          connect both, and come up with creative solutions for otherwise difficult problems. <br>I like to think that
+          every complex problem has a simple solution - "simplicity is key".
+        </p>
+
+
       </div>
 
       <span class="shape">
-        <img src="img/shape3.png" alt="">
+        <img src="img/shape.png" alt="">
       </span>
 
     </div>
 
   </div>
-  </div>
+
+  <div id="my-skills"></div>
 
   <div class="container skills" id="skills">
 
@@ -347,12 +370,14 @@
       </div>
 
       <span class="gears">
-        <img src="img/gears2-50%.png" alt="">
+        <img src="img/gears.png" alt="">
       </span>
 
     </div>
 
   </div>
+
+  <div id="my-projects"></div>
 
   <div class="container work" id="work">
 
@@ -407,49 +432,57 @@
 
   </div>
 
+  <div id="contact-me"></div>
+
   <div class="container contacts" id="contacts">
     <div class="item" data-aos="zoom-in">
 
 
       <h1>Contacts</h1>
 
+      <span class="contacts-list">
+
+        <div class="phone">
+          <i class="fas fa-phone-square-alt fa-spin-hover"></i>
+          <a class="contact">(+351) 917 120 421</a>
+
+        </div>
+
+        <div class="email">
+          <i class="fas fa-envelope-square fa-spin-hover"></i>
+          <a href="mailto:smashersilva@gmail.com" class="contact">smashersilva@gmail.com</a>
+
+        </div>
+
+        <div class="linkedin">
+          <i class="fab fa-linkedin fa-spin-hover"></i>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/paulo-s"
+            class="contact">linkedin.com/in/paulo-s</a>
+        </div>
+
+        <div class="github">
+          <i class="fab fa-github-square fa-spin-hover"></i>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/zirtsilva"
+            class="contact">github.com/zirtsilva</a>
+        </div>
+
+      </span>
+
     </div>
-
-
-
 
   </div>
 
   <footer>
     <hr>
-    <p>2020 Paulo Silva</p>
+    <p>&#60Created With:&nbsp HTML / CSS / JavaScript / jQuery / AOS&#62</p>
   </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
-      delay: 250,
-      duration: 2000
+      delay: 300,
+      duration: 3000
     });
   </script>
 
