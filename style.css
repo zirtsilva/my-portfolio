@@ -36,7 +36,7 @@ header{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 1.5vh 0;
+  padding: .8vh 0;
 }
 
 .navbar{
@@ -86,13 +86,13 @@ a{
 
 .main-info-section{
   padding-top: 15%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 
 .text h1{
   color: #d9d9d9;
-  font-size: 3.5vw;
+  font-size: 3vw;
 }
 
 .text span{
@@ -104,9 +104,11 @@ span.name{
   color: #9C0402;
 }
 
+
 span.m-left{
   margin-left: -0.1vw;
 }
+
 
 .word:hover{
   color:#9C0402;
@@ -124,9 +126,9 @@ span.m-left{
 }
 
 .text a{
-  padding: .9vw 2vw;
+  padding: .7vw 1.5vw;
   background-color: none;
-  border: .3vw solid #9C0402;
+  border: .2vw solid #9C0402;
   color: #9C0402;
   font-size: .8vw;
   letter-spacing: .2vw;
@@ -161,7 +163,7 @@ span.m-left{
 
 .profile-image img{
   width: 100%;
-  transform: translate(0, -14vw);
+  transform: translate(7vw, -14vw);
   -webkit-filter: grayscale(25%);
   filter: grayscale(25%);
 }
@@ -171,20 +173,20 @@ span.m-left{
 .about h1,
 .work h1 {
   text-align: left;
-  font-size: 12vw;
+  font-size: 8vw;
   z-index: 0;
   opacity: .3;
 }
 
 .skills h1{
   text-align: right;
-  font-size: 12vw;
+  font-size: 8vw;
   opacity: .3;
 }
 
 .contacts h1{
   text-align: center;
-  font-size: 12vw;
+  font-size: 8vw;
   opacity: .3;
 }
 
@@ -193,10 +195,10 @@ span.m-left{
   color: #aaaaaa;
   background-color: #9C0402;
   opacity: 0.6;
-  box-shadow: 0 0 1.2rem #707070;
+  box-shadow: 0 0 1vw #707070;
   padding: 2.5vw;
   position: relative;
-  top: -6vw;
+  top: -4vw;
   left: 50%;
   right: 50%;
   transform: translateX(-50%);
@@ -204,16 +206,16 @@ span.m-left{
 }
 
 .skills-list{
-  font-size: 2vw;
+  font-size: 1.2vw;
   color: #aaaaaa;
   font-weight: bold;
   max-width: 80%;
   background-color: #9C0402;
   opacity: 0.6;
-  box-shadow: 0 0 1.2rem #707070;
+  box-shadow: 0 0 1vw #707070;
   padding: 2.5vw;
   position: relative;
-  top: -6vw;
+  top: -4vw;
   left: 50%;
   right: 50%;
   transform: translateX(-50%);
@@ -222,7 +224,7 @@ span.m-left{
 }
 
 .about-me-info p{
-  font-size: 1.6vw;
+  font-size: 1vw;
   color: #BEBEBE;
 }
 
@@ -243,23 +245,24 @@ span.m-left{
 }
 
 footer hr{
-  border: 2px solid #707070;
+  border: .01vw solid #707070;
   margin-top: 2vw;
 }
 
 footer p{
   text-align: center;
   color: #707070;
-  font-size: 1.6vw;
-  padding: 2vw 0;
+  padding: 1vw 0;
+  font-size: 1vw;
+  background-color: #1f1e1e;
 }
 
 .project{
-  padding: .9vw 2vw;
+  padding: .5vw 1vw;
   background-color: none;
   border: .2vw solid #9C0402;
   color: #9C0402;
-  font-size: .8vw;
+  font-size: .6vw;
   letter-spacing: .2vw;
   position: relative;
   top: 6vw;
@@ -303,8 +306,8 @@ color: #d9d9d9;
 }
 
 .project-span{
-  padding-right: 0.4vw;
-  padding-left: 0.4vw;
+  padding-right: 0.8vw;
+  padding-left: 0.8vw;
   
 }
 
@@ -322,7 +325,7 @@ color: #d9d9d9;
 }
 
 .showing-project-text{
-  font-size: 1.6vw;
+  font-size: 1.2vw;
   color: #BEBEBE;
   opacity: .8;
 }
@@ -393,12 +396,12 @@ color: #d9d9d9;
 }
 
 .about img{
-  width: 28vw;
+  width: 20vw;
   position: relative;
-  top: -30.6vw;
+  top: -21vw;
   left: calc(100% - 5vw);
   right: calc(100% - 5vw);
-  transform: translateX(calc(-100% + 10.8vw));
+  transform: translateX(calc(-100% + 13.9vw));
 }
 
 .gears {
@@ -408,12 +411,12 @@ color: #d9d9d9;
 }
 
 .skills img {
-  width: 35vw;
+  width: 20vw;
   position: relative;
-  top: -44vw;
+  top: -28vw;
   left: calc(100% - 5vw);
   right: calc(100% - 5vw);
-  transform: translateX(calc(-100% + 10vw));
+  transform: translateX(calc(-100% + 15vw));
 }
 
 .about,
@@ -429,22 +432,22 @@ color: #d9d9d9;
 }
 
 .fa-spin-hover{
-  font-size: 3vw;
+  font-size: 2vw;
   color: #9C0402;
   opacity: .6;
-  margin-right: 3vw;
+  margin-right: 1.5vw;
   margin-top: 1vw;
 }
 
 .contact{
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   color: #aaaaaa;
   font-weight: bold;
   text-transform: none;
   opacity: .6;
   padding: 0;
   margin: 0;
-  top: -.8vw;
+  top: -.4vw;
 }
 
 .contacts{
@@ -454,8 +457,9 @@ color: #d9d9d9;
 
 .contacts-list{
   margin: 3vw;
+  margin-top: 2vw;
   display: inline-block;
-  transform: translateX(40%);
+  transform: translateX(22%);
 }
 
 .github{
@@ -467,15 +471,15 @@ color: #d9d9d9;
 }
 
 #about-me{
-  transform: translateY(-10vh);
+  transform: translateY(-26vh);
 }
 
 #my-skills{
-  transform: translateY(-10vh);
+  transform: translateY(-20vh);
 }
 
 #my-projects{
-  transform: translateY(-5vh);
+  transform: translateY(-10vh);
 }
 
 .lgo{
@@ -497,5 +501,5 @@ color: #d9d9d9;
   filter: none;
   -webkit-filter: grayscale(1);
   -webkit-transform: scale(1.01);
-  transform: translate(0, -14vw);
+  transform: translate(7vw, -14vw);
 }
